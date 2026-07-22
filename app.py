@@ -24,7 +24,7 @@ with open('X_train_sample.pkl', 'rb') as file:
     X_train_sample = pickle.load(file)
 
 ## streamlit app
-st.title('Customer Churn PRediction')
+st.title('Customer Churn Prediction')
 
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
