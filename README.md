@@ -2,7 +2,7 @@
 
 An Artificial Neural Network (ANN) that predicts whether a bank customer is likely to churn, with SHAP-based explainability so predictions aren't just a black-box number.
 
-🔗 **Live demo:** _add your Streamlit Cloud link here once deployed_
+🔗 **Live demo:** https://kritika-churn-prediction.streamlit.app
 
 ## Overview
 
@@ -53,7 +53,6 @@ streamlit run app.py
 ├── X_train_sample.pkl          # Background sample used by SHAP
 └── requirements.txt
 ```
-
 ## What I'd Improve Next
 
 - Add input validation/bounds in the UI to keep values within realistic ranges
